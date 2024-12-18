@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\furma\\Shooter\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\furma\\shooter\\my project\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\enemyrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\healthenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\grenade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grenade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\furma\\Shooter\\My project\\Assets\\Scenes\\MainMenu\\Clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\MainMenu\\Clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clicked.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Clicked.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Clicked.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Clicked.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Clicked.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:42:23.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:44.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Grenade.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Grenade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grenade.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Grenade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grenade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:43.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HealthPlayer.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPlayer.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPlayer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:44.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:44.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RayShooter.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RayShooter.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RayShooter.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:44.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy2.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Enemy2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy2.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Enemy2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy2.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwEUAAAAqAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:43.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Clicked.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scenes\\MainMenu\\Clicked.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\MainMenu\\Clicked.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scenes\\MainMenu\\Clicked.cs",
+              "RelativeToolTip": "Assets\\Scenes\\MainMenu\\Clicked.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:45.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyRun.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyRun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRun.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyRun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyRun.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwC8AAABTAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:44.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyShooter.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyShooter.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyShooter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwF4AAAAIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:44.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanePlacer.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\PlanePlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlanePlacer.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\PlanePlacer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlanePlacer.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwJcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:32:44.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HealthEnemy.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthEnemy.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:44.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T23:45:48.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Block.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Block.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Block.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Block.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Block.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-17T23:32:44.295Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

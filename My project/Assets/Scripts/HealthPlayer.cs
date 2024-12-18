@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthPlayer : MonoBehaviour
 {
@@ -45,10 +46,6 @@ public class HealthPlayer : MonoBehaviour
     }
     public void EndGame()
     {
-      #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-      #else
-        Application.Quit();
-      #endif
+        SceneManager.LoadScene("MainMenu");
     }
 }
