@@ -173,8 +173,6 @@ MonoBehaviour:
   - {fileID: 2715288490377692879, guid: cf961ab547702d149ae7157e4096b048, type: 3}
   enemies: []
   enemies2: []
-  count_enemies1: 0
-  count_enemies2: 0
   level: 0
 --- !u!1 &705507993
 GameObject:

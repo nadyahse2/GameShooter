@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Clicked">
+			<method name="ContinueButtonPressed"/>
+			<method name="OnCliked"/>
+			<method name="OnCliked"/>
+			<method name="QuitButton"/>
+		</type>
+	</assembly>
+</linker>

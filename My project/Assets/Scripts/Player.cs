@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 
     private CharacterController charCont;
     public Transform cameraTransform;
+    public GameObject PausePanel;
+    public bool Panel_Active = false;
 
     void Start()
     {
@@ -21,8 +23,30 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        MovePlayer();
-       
+        if (Panel_Active == false)
+        {
+            MovePlayer();
+        }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (!Panel_Active)
+            {
+                PausePanel.SetActive(true);
+                Time.timeScale = 0f;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                Panel_Active = true;
+            }
+            else
+            {
+                Time.timeScale = 1f;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                Panel_Active = false;
+                PausePanel.SetActive(false);
+
+            }
+        }
 
     }
 
