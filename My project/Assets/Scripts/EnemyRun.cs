@@ -10,7 +10,6 @@ public class EnemyRun: MonoBehaviour
     private Animator animator;
     private EnemyShooter shooter;
     private int anim_num = 0;
-    public int health = 25;
     [SerializeField] float radius = 10f;
     [SerializeField] float viewDistance = 15f;
     [SerializeField] private float turnSpeed = 5f;
@@ -67,10 +66,7 @@ public class EnemyRun: MonoBehaviour
 
         
 
-        if(health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        
         
     }
     public void SetPlayer(Transform player)

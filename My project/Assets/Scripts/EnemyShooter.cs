@@ -8,10 +8,10 @@ public class EnemyShooter : MonoBehaviour
     [SerializeField] float damage = 10f;
     [SerializeField] float range = 10f;
     [SerializeField] float inaccuracy = 3f;
-    [SerializeField] float snap;
+   
 
     private float nextFireTime = 0f;
-    [SerializeField] float retSpeed;
+    
 
     private LineRenderer laserLine;
     public Transform gunEnd;

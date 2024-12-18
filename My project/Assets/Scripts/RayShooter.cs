@@ -20,7 +20,7 @@ public class RayShooter : MonoBehaviour
     public GameObject grenadePrefab;
     public Transform throwPoint;
     public int maxGrenades = 3;
-    public float throwForce = 15f;
+    public float throwForce = 5f;
     public float gravity = -18f;
     public float throwCooldown = 1f;
 
@@ -135,9 +135,14 @@ public class RayShooter : MonoBehaviour
     }
     private Vector3 CalculateParabolicVelocity()
     {
-        Vector3 throwDirection = transform.forward;
-        float velocityY = Mathf.Sqrt(-2 * gravity * (transform.position.y + 5));
-        Vector3 velocity = throwDirection * throwForce;
+        
+        float angle = 45f; // Угол броска
+                           // Перевод угла в радианы
+        float angleInRadians = angle * Mathf.Deg2Rad;
+        // Вычисляем скорость по горизонтали и вертикали
+        float initialVelocity = throwForce;
+        float velocityY = initialVelocity * Mathf.Sin(angleInRadians);
+        Vector3 velocity = transform.forward * initialVelocity * Mathf.Cos(angleInRadians);
         velocity.y = velocityY;
         return velocity;
     }

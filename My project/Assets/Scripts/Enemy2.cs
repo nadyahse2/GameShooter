@@ -12,15 +12,15 @@ public class Enemy2 : MonoBehaviour
     private Animator animator;
     private EnemyShooter shooter;
     private int anim_num = 0;
-    public int health = 25;
-    public List<Transform> coverPoints = new List<Transform>();
-    private Transform currentCoverPoint;
+    
+    public List<Vector3> coverPoints = new List<Vector3>();
+    private Vector3 currentCoverPoint;
     private bool isSeekingCover = false;
     [SerializeField] float radius = 10f;
     [SerializeField] float viewDistance = 15f;
     [SerializeField] private float turnSpeed = 5f;
     private bool active_move = false;
-    private Transform point;
+    private Vector3 point;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,9 +34,9 @@ public class Enemy2 : MonoBehaviour
     void Update()
     {
         distanse = Vector3.Distance(Player.transform.position, transform.position);
-        if(point!= null)
+        if(point!= new Vector3(0,0,0))
         {
-            if(Vector3.Distance(transform.position, point.position) <= 1f)
+            if(Vector3.Distance(transform.position, point) <= 3f)
             {
                 active_move = false;
             }
@@ -71,10 +71,7 @@ public class Enemy2 : MonoBehaviour
 
 
 
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        
 
     }
     public void SetPlayer(Transform player)
@@ -96,30 +93,30 @@ public class Enemy2 : MonoBehaviour
         }
         return false;
     }
-    private Transform SeekCover()
+    private Vector3 SeekCover()
     {
          
         
         
 
-        Transform closestCover = GetClosestFreeCover();
+        Vector3 closestCover = GetClosestFreeCover();
         currentCoverPoint = closestCover;
-        agent.destination = currentCoverPoint.position;
+        agent.destination = currentCoverPoint;
         return currentCoverPoint;
 
 
     }
-    private Transform GetClosestFreeCover()
+    private Vector3 GetClosestFreeCover()
     {
-        Transform closestFreeCover = null;
+        Vector3 closestFreeCover = new Vector3(0,0,0);
         float closestDistance = float.MaxValue;
 
-        foreach (Transform cover in coverPoints)
+        foreach (Vector3 cover in coverPoints)
         {
             bool isUsed = false;
             foreach (Transform enemy in FindObjectsOfType<Enemy2>().Select(x => x.transform))
             {
-                if (enemy != transform && Vector3.Distance(enemy.position, cover.position) <= 1f)
+                if (enemy != transform && Vector3.Distance(enemy.position, cover) <= 3f)
                 {
                     isUsed = true;
                     break;

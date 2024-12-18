@@ -100,7 +100,7 @@ Transform:
   m_GameObject: {fileID: 1175140795834073419}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52, y: -0.06, z: 0}
+  m_LocalPosition: {x: -0.08, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e362dacb1e0d4f4bbb66b8c5ef4ffc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 4
   gravity: -9.81
   jumpforce: 7
   cameraTransform: {fileID: 923484689255948441}
@@ -547,7 +547,7 @@ MonoBehaviour:
   grenadePrefab: {fileID: 8557001370217552866, guid: 370a7ceccd9cdea4b91a53d8107143d0, type: 3}
   throwPoint: {fileID: 7367853726395415656}
   maxGrenades: 3
-  throwForce: 15
+  throwForce: 8
   gravity: -18
   throwCooldown: 1
 --- !u!136 &3169790650993018949

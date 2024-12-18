@@ -12,8 +12,8 @@ public class PlanePlacer : MonoBehaviour
     public Transform Enemy2_Pref;
     private Transform Enemy2;
     public Block[] BlockPrefabs;
-    public List<Transform> enemies;
-    public List<Transform> enemies2;
+    public List<Vector3> enemies;
+    public List<Vector3> enemies2;
     private float playerSpawnOffset = 2f;
     public int level = 0;
 
@@ -26,8 +26,8 @@ public class PlanePlacer : MonoBehaviour
         InitilizeBlockBag();
         Block FirstBlock = Instantiate(GetNextBlock());
         SpawnedBlocks.Add(FirstBlock);
-        enemies = FirstBlock.spawn_point1;
-        enemies2 = FirstBlock.spawn_point2;
+        enemies = GetSpawnPositions(FirstBlock.spawn_point1);
+        enemies2 = GetSpawnPositions(FirstBlock.spawn_point2);
         Vector3 spawnPosition = SpawnedBlocks[0].Begin.position;
 
 
@@ -40,13 +40,13 @@ public class PlanePlacer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GameObject.FindObjectsOfType<EnemyRun>().Length);
-        Debug.Log(GameObject.FindObjectsOfType<Enemy2>().Length);
         if((Player.position.z > SpawnedBlocks[SpawnedBlocks.Count - 1].End.position.z - 5 && SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Up" || 
             Player.position.x > SpawnedBlocks[SpawnedBlocks.Count - 1].End.position.x - 5 && SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Right" || 
             Player.position.z < SpawnedBlocks[SpawnedBlocks.Count - 1].End.position.z + 5 && SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Down" || 
-            Player.position.x < SpawnedBlocks[SpawnedBlocks.Count - 1].End.position.x + 5 && SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Left") && (GameObject.FindObjectsOfType<EnemyRun>().Length == 0 && GameObject.FindObjectsOfType<Enemy2>().Length == 0))
+            Player.position.x < SpawnedBlocks[SpawnedBlocks.Count - 1].End.position.x + 5 && SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Left"))
         {
+            RemoveAllEnemies();
+
             SpawnedBlocks[0].door.SetActive(false);
             SpawnedBlocks[0].door.GetComponent<BoxCollider>().enabled = false;
             SpawnBlock();
@@ -97,8 +97,7 @@ public class PlanePlacer : MonoBehaviour
 
         Block previousBlock = SpawnedBlocks[SpawnedBlocks.Count - 1];
         Block newBlock = Instantiate(GetNextBlock());
-        enemies = newBlock.spawn_point1;
-        enemies2 = newBlock.spawn_point2;
+        
 
         if (SpawnedBlocks[SpawnedBlocks.Count - 1].tag == "Block_Right")
         {
@@ -132,7 +131,9 @@ public class PlanePlacer : MonoBehaviour
         }
         newBlock.transform.position = SpawnedBlocks[SpawnedBlocks.Count - 1].End.position - newBlock.Begin.position;
 
-
+        enemies = GetSpawnPositions(newBlock.spawn_point1);
+        enemies2 = GetSpawnPositions(newBlock.spawn_point2);
+        
         SpawnedBlocks.Add(newBlock);
 
     }
@@ -144,7 +145,7 @@ public class PlanePlacer : MonoBehaviour
         {
             for (int i = 0; i < level+1; i++)
             {
-                Vector3 spawnPosition3 = enemies2[i].position;
+                Vector3 spawnPosition3 = enemies2[i];
                 Enemy2 = Instantiate(Enemy2_Pref, spawnPosition3, Quaternion.identity);
 
                 Enemy2 enemy2 = Enemy2.GetComponent<Enemy2>();
@@ -159,7 +160,7 @@ public class PlanePlacer : MonoBehaviour
         {
             for (int i = 0; i < enemies2.Count; i++)
             {
-                Vector3 spawnPosition3 = enemies2[i].position;
+                Vector3 spawnPosition3 = enemies2[i];
                 Enemy2 = Instantiate(Enemy2_Pref, spawnPosition3, Quaternion.identity);
                 Enemy2 enemy2 = Enemy2.GetComponent<Enemy2>();
                 HealthEnemy health2 = Enemy2.GetComponent<HealthEnemy>();
@@ -174,7 +175,7 @@ public class PlanePlacer : MonoBehaviour
         {
             for (int i = 0; i < level +1; i++)
             {
-                Vector3 spawnPosition3 = enemies[i].position;
+                Vector3 spawnPosition3 = enemies[i];
                 Enemy_Run = Instantiate(Enemy_Run_Prefab, spawnPosition3, Quaternion.identity);
                 EnemyRun enemy = Enemy_Run.GetComponent<EnemyRun>();
                 HealthEnemy health = Enemy_Run.GetComponent<HealthEnemy>();
@@ -187,7 +188,7 @@ public class PlanePlacer : MonoBehaviour
         {
             for (int i = 0; i < enemies.Count-1; i++)
             {
-                Vector3 spawnPosition3 = enemies[i].position;
+                Vector3 spawnPosition3 = enemies[i];
                 Enemy_Run = Instantiate(Enemy_Run_Prefab, spawnPosition3, Quaternion.identity);
                 EnemyRun enemy = Enemy_Run.GetComponent<EnemyRun>();
                 HealthEnemy health = Enemy_Run.GetComponent<HealthEnemy>();
@@ -201,5 +202,34 @@ public class PlanePlacer : MonoBehaviour
 
 
     }
+    public void RemoveAllEnemies()
+    {
+        EnemyRun[] enem = FindObjectsOfType<EnemyRun>();
 
+        foreach (EnemyRun e in enem)
+        {
+            Destroy(e.gameObject);
+        }
+        Enemy2[] enem2 = FindObjectsOfType<Enemy2>();
+
+        foreach (Enemy2 e2 in enem2)
+        {
+            Destroy(e2.gameObject);
+        }
+    }
+    List<Vector3> GetSpawnPositions(List<Transform> transforms)
+    {
+        if (transforms == null)
+        {
+            Debug.LogError("Transforms list is null");
+            return new List<Vector3>();
+        }
+
+        List<Vector3> positions = new List<Vector3>();
+        foreach (Transform t in transforms)
+        {
+            positions.Add(t.position);
+        }
+        return positions;
+    }
 }

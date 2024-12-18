@@ -2285,11 +2285,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 1
-  damage: 10
+  damage: 5
   range: 10
   inaccuracy: 0.2
-  snap: 4
-  retSpeed: 2
   gunEnd: {fileID: 8303326955686596155}
   isShooting: 0
 --- !u!114 &1428871597536152259
@@ -2361,9 +2359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  health: 25
   coverPoints: []
-  radius: 5
+  radius: 7
   viewDistance: 15
   turnSpeed: 5
 --- !u!120 &7435498122379328453
@@ -2413,7 +2410,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 0.0047863126}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1

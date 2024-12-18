@@ -2378,8 +2378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  health: 25
-  radius: 10
+  health: 10
+  radius: 15
   viewDistance: 15
   turnSpeed: 5
 --- !u!114 &7641434474199626914
