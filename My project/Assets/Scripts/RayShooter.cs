@@ -39,34 +39,36 @@ public class RayShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        targetRot = Vector3.Lerp(targetRot, Vector3.zero, retSpeed * Time.deltaTime);
-        currentRot = Vector3.Slerp(currentRot, targetRot, snap * 0.1f);
-        transform.localRotation = Quaternion.Euler(currentRot);
-        if (Input.GetKeyDown(KeyCode.G) && canThrow && currentGrenades > 0)
+        if (this.GetComponentInParent<Player>().Panel_Active == false)
         {
-            ThrowGrenade();
-        }
-
-        if (shootingType == ShootingType.Single)
-        {
-            if (Input.GetMouseButtonDown(0))
+            targetRot = Vector3.Lerp(targetRot, Vector3.zero, retSpeed * Time.deltaTime);
+            currentRot = Vector3.Slerp(currentRot, targetRot, snap * 0.1f);
+            transform.localRotation = Quaternion.Euler(currentRot);
+            if (Input.GetKeyDown(KeyCode.G) && canThrow && currentGrenades > 0)
             {
-                SingleShot();
+                ThrowGrenade();
             }
-        }
-        else
-        {
-            if (Input.GetMouseButton(0))
+
+            if (shootingType == ShootingType.Single)
             {
-                StartAutoShot();
+                if (Input.GetMouseButtonDown(0))
+                {
+                    SingleShot();
+                }
             }
             else
             {
-                StopAutoShot();
+                if (Input.GetMouseButton(0))
+                {
+                    StartAutoShot();
+                }
+                else
+                {
+                    StopAutoShot();
+                }
             }
+
         }
-
-
 
 
     }

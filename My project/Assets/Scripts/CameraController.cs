@@ -19,13 +19,16 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        verticalRot -= Input.GetAxis("Mouse Y") * sens;
-        verticalRot = Mathf.Clamp(verticalRot, -45, 45);
+        if (this.GetComponentInParent<Player>().Panel_Active == false)
+        {
+            verticalRot -= Input.GetAxis("Mouse Y") * sens;
+            verticalRot = Mathf.Clamp(verticalRot, -45, 45);
 
-        float delta = Input.GetAxis("Mouse X") * sens;
-        horizontalRot = transform.localEulerAngles.y + delta;
+            float delta = Input.GetAxis("Mouse X") * sens;
+            horizontalRot = transform.localEulerAngles.y + delta;
 
-        transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
-        playerBody.Rotate(Vector3.up, delta);
+            transform.localEulerAngles = new Vector3(verticalRot, horizontalRot, 0);
+            playerBody.Rotate(Vector3.up, delta);
+        }
     }
 }

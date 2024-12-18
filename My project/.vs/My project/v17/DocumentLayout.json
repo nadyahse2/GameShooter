@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\furma\\Shooter\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\furma\\shooter\\my project\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\furma\\shooter\\my project\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planeplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\furma\\Shooter\\My project\\assets\\scripts\\enemyrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +54,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\furma\\Shooter\\My project\\assets\\scenes\\mainmenu\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scenes\\mainmenu\\clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\furma\\Shooter\\My project\\Assets\\Scenes\\MainMenu\\Clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\MainMenu\\Clicked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,24 +65,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Clicked.cs",
+              "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Clicked.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Clicked.cs",
+              "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Clicked.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Clicked.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:42:23.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:32:44.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T23:32:44.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Grenade.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Grenade.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grenade.cs",
@@ -90,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HealthPlayer.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPlayer.cs",
               "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthPlayer.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T23:32:44.263Z"
             },
@@ -108,25 +123,27 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:32:44.295Z"
+              "WhenOpened": "2024-12-17T23:32:44.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RayShooter.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\RayShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RayShooter.cs",
               "ToolTip": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\RayShooter.cs",
               "RelativeToolTip": "Assets\\Scripts\\RayShooter.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA1wEgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:32:44.26Z"
+              "WhenOpened": "2024-12-17T23:32:44.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Enemy2.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Enemy2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy2.cs",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Clicked.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scenes\\MainMenu\\Clicked.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\MainMenu\\Clicked.cs",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EnemyRun.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyRun.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRun.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EnemyShooter.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\EnemyShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyShooter.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlanePlacer.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\PlanePlacer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlanePlacer.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HealthEnemy.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\HealthEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthEnemy.cs",
@@ -198,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs",
               "ToolTip": "C:\\Users\\ADMINISTRATOR\\Desktop\\My project\\Assets\\Scripts\\Bullet.cs",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Block.cs",
               "DocumentMoniker": "D:\\furma\\Shooter\\My project\\Assets\\Scripts\\Block.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Block.cs",
